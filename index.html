@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crpto CIA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Crytography Concepts - Cipher Implementation</h1>
+    <div class="controls">
+      <label for="cipherSelect">Select Cipher:</label>
+      <select id="cipherSelect">
+        <option>Caesar</option>
+        <option>Atbash</option>
+        <option>August</option>
+        <option>Affine</option>
+        <option>Vigenere</option>
+        <option>Gronsfeld</option>
+        <option>Beaufort</option>
+        <option>Autoclave</option>
+        <option>N-Gram</option>
+        <option>Hill</option>
+        <option>Rail Fence</option>
+        <option>Route</option>
+        <option>Myszkowski</option>
+      </select>
+
+      <textarea id="inputText" placeholder="Enter your input"></textarea>
+      <input id="keyInput" placeholder="Enter key " />
+
+      <div class="action-buttons">
+        <button onclick="processText(true)">Encrypt</button>
+        <button onclick="processText(false)">Decrypt</button>
+      </div>
+
+      <textarea id="outputText" readonly placeholder="Output result here"></textarea>
+    </div>
+  </div>
+
+  <script src="ciphers.js"></script>
+</body>
+</html>

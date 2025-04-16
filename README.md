@@ -2,6 +2,7 @@
 This repository consists of 13 ciphers implemented in javascript. A webpage is created for the user to play with the implementation of the cipher of their choice
 
 
+Below is a simple explanation to each cipher about its encryption and decryption techniques:
 **Caesar Cipher:**
   * **Encryption:** Shifts each letter in the plaintext a fixed number of positions down the alphabet.
   * **Decryption:** Shifts each letter in the ciphertext the same fixed number of positions up the alphabet.
